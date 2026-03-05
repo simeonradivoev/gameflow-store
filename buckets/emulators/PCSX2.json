@@ -1,0 +1,38 @@
+{
+    "name": "PCSX2",
+    "homepage": "https://pcsx2.net/",
+    "description": "PCSX2 is a free and open-source PlayStation 2 (PS2) emulator. Its purpose is to emulate the PS2's hardware, using a combination of MIPS CPU Interpreters, Recompilers, and a Virtual Machine that manages hardware states and system memory.",
+    "license": {
+        "identifier": "GPL-3.0",
+        "url": "https://github.com/PCSX2/pcsx2/blob/master/COPYING.GPLv3"
+    },
+    "notes": [
+        "ATTENTION: PCSX2 requires a dump of the PS2 BIOS to function.",
+        "Place the BIOS file in $persist_dir\\bios",
+        "Learn more at https://wiki.pcsx2.net/Setting_up_Windows_version#BIOS"
+    ],
+    "funding": "https://github.com/sponsors/PCSX2",
+    "logo": "https://pcsx2.net/img/logo.webp",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/PCSX2/pcsx2.git"
+    },
+    "aliases": {
+        "winget": "pcsx2",
+        "scoop": "games/pcsx2",
+        "flatpak": "net.pcsx2.PCSX2"
+    },
+    "type": "emulator",
+    "os": [
+        "darwin",
+        "linux",
+        "win32"
+    ],
+    "keywords": [
+        "emulator",
+        "cpp",
+        "emulation",
+        "pcsx2",
+        "ps2"
+    ]
+}
