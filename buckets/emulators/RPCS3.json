@@ -1,0 +1,56 @@
+
+{
+    "name": "RPCS3",
+    "description": "RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux, macOS and FreeBSD.",
+    "homepage": "https://rpcs3.net/",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c5/RPCS3_logo.png",
+    "license": {
+        "identifier": "GPL-2.0",
+        "url": "https://github.com/RPCS3/rpcs3/blob/master/LICENSE"
+    },
+    "keywords": ["c", "emulation", "emulator", "opengl", "playstation3", "ps3", "multiplatform"],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/RPCS3/rpcs3.git"
+    },
+    "downloads": {
+        "win32:x64": {
+            "type": "github",
+            "url": "https://github.com/RPCS3/rpcs3-binaries-win"
+        },
+        "win32:arm64": {
+            "type": "github",
+            "url": "https://github.com/RPCS3/rpcs3-binaries-win-arm64"
+        },
+        "linux:x64": {
+            "type": "github",
+            "url": "https://github.com/RPCS3/rpcs3-binaries-linux"
+        },
+        "linux:arm64": {
+            "type": "github",
+            "url": "https://github.com/RPCS3/rpcs3-binaries-linux-arm64"
+        },
+        "darwin": {
+            "type": "github",
+            "url": "https://github.com/RPCS3/rpcs3-binaries-mac"
+        },
+        "darwin:arm64": {
+            "type": "github",
+            "url": "https://github.com/RPCS3/rpcs3-binaries-mac-arm64"
+        }
+    },
+    "aliases": {
+        "winget": "PPSSPPTeam.PPSSPP",
+        "scoop": "games/rpcs3",
+        "flatpak": "net.rpcs3.RPCS3"
+    },
+    "type": "emulator",
+    "systems": [
+		"ps3"
+	],
+    "os": [
+        "win32",
+        "darwin",
+        "linux"
+    ]
+}

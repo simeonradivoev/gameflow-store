@@ -17,6 +17,12 @@
         "type": "git",
         "url": "https://github.com/PCSX2/pcsx2.git"
     },
+    "downloads": {
+        "win32,linux": {
+            "type": "github",
+            "url": "https://github.com/PCSX2/pcsx2"
+        }
+    },
     "aliases": {
         "winget": "pcsx2",
         "scoop": "games/pcsx2",

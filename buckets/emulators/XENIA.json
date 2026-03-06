@@ -1,0 +1,31 @@
+{
+    "name": "XENIA-EDGE",
+    "description": "Xenia Edge is yet another experimental fork of the Xenia emulator, mainly based on Xenia Canary but with the aim of quicker iteration and improvements to Vulkan backend and Linux platform in particular. Windows of course remains fully supported as well and will benefit from changes made here especially with its Vulkan backend.",
+    "homepage": "https://xenia.jp",
+    "logo": "https://xenia.jp/images/logo-256x256.png",
+    "license": {
+        "identifier": "BSD-3-Clause",
+        "url": "https://github.com/xenia-project/xenia/blob/master/LICENSE"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/xenia-project/xenia.git"
+    },
+    "downloads": {
+        "win32": {
+            "type": "github",
+            "url": "https://github.com/xenia-project/release-builds-windows"
+        }
+    },
+    "aliases": {
+        "winget": "xenia-project.xenia",
+        "scoop": "games/xenia"
+    },
+    "type": "emulator",
+    "systems": [
+		"xbox360"
+	],
+    "os": [
+        "win32"
+    ]
+}

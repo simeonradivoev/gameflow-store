@@ -1,0 +1,36 @@
+
+{
+    "name": "PPSSPP",
+    "description": "PPSSPP is a free and open-source PSP emulator for Windows, macOS, Linux, iOS, Android, Nintendo Wii U, Nintendo Switch, BlackBerry 10, MeeGo, Pandora, Xbox Series X/S and Symbian with a focus on speed and portability",
+    "homepage": "https://www.ppsspp.org/",
+    "logo": "https://www.ppsspp.org/static/img/platform/ppsspp-icon.png",
+    "license": {
+        "identifier": "GPL-2.0-or-later",
+        "url": "https://github.com/hrydgard/ppsspp/blob/master/LICENSE.TXT"
+    },
+    "keywords": ["psp", "emulation", "emulator", "playstationportable", "playstation-portable", "umd", "universalmediadisc", "universal-media-disc"],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hrydgard/ppsspp.git"
+    },
+    "downloads": {
+        "win32,darwin,linux": {
+            "type": "github",
+            "url": "https://github.com/hrydgard/ppsspp.git"
+        }
+    },
+    "aliases": {
+        "winget": "PPSSPPTeam.PPSSPP",
+        "scoop": "games/ppsspp",
+        "flatpak": "org.ppsspp.PPSSPP"
+    },
+    "type": "emulator",
+    "systems": [
+		"psp"
+	],
+    "os": [
+        "win32",
+        "darwin",
+        "linux"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "name": "CEMU",
+    "description": "Dolphin is an emulator for two recent Nintendo video game consoles: the GameCube and the Wii. It allows PC gamers to enjoy games for these two consoles in full HD (1080p) with several enhancements: compatibility with all PC controllers, turbo speed, networked multiplayer, and even more! ",
+    "homepage": "https://dolphin-emu.org/",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/5/53/Dolphin_Emulator_Logo_Refresh.svg",
+    "license": {
+        "identifier": "GPL-2.0-or-later",
+        "url": "https://github.com/dolphin-emu/dolphin/blob/master/COPYING"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dolphin-emu/dolphin.git"
+    },
+    "keywords": ["cemu", "emulation", "cpp", "nintendo", "wiiu"],
+    "aliases": {
+        "winget": "DolphinEmulator.Dolphin",
+        "scoop": "games/dolphin",
+        "flatpak": "org.DolphinEmu.dolphin-emu"
+    },
+    "type": "emulator",
+    "systems": [
+		"gc",
+        "wii"
+	],
+    "os": [
+        "win32",
+        "linux",
+        "darwin"
+    ]
+}

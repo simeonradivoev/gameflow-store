@@ -1,0 +1,34 @@
+{
+    "name": "XEMU",
+    "description": "A free and open-source application that emulates the original Microsoft Xbox game console. Supports connecting up to 4 controllers for local play, networking for multiplayer, resolution scaling, and more.",
+    "homepage": "https://xemu.app/",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Xemu_logo_green.svg",
+    "license": {
+        "identifier": "GPL-2.0",
+        "url": "https://github.com/xemu-project/xemu/blob/master/LICENSE"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/xemu-project/xemu.git"
+    },
+    "downloads": {
+        "win32": {
+            "type": "github",
+            "url": "https://github.com/xemu-project/xemu"
+        }
+    },
+    "aliases": {
+        "winget": "xemu-project.xemu",
+        "scoop": "games/xemu",
+        "flatpak": "app.xemu.xemu"
+    },
+    "type": "emulator",
+    "systems": [
+		"xbox"
+	],
+    "os": [
+        "win32",
+        "linux",
+        "darwin"
+    ]
+}

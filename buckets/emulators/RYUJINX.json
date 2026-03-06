@@ -1,0 +1,37 @@
+{
+    "name": "CEMU",
+    "description": "Nintendo Switch 1 emulator written in C#.",
+    "homepage": "https://ryujinx.app/",
+    "logo": "https://raw.githubusercontent.com/Ryubing/Assets/refs/heads/main/RyujinxApp_1024.png",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://git.ryujinx.app/ryubing/ryujinx/-/blob/master/LICENSE.txt"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://git.ryujinx.app/ryubing/ryujinx.git"
+    },
+    "downloads": {
+        "win32:x64,linux:x64,linux:arm64,darwin": {
+            "type": "gitlab",
+            "url": "https://git.ryujinx.app/ryubing/ryujinx/"
+        }
+    },
+    "notes": [
+        "ATTENTION: Ryujinx requires Nintendo Switch firmware and a prod.keys file to function.",
+        "Learn more at https://git.ryujinx.app/ryubing/ryujinx/-/wikis/FAQ-&-Troubleshooting"
+    ],
+    "aliases": {
+        "scoop": "games/ryujinx",
+        "flatpak": "io.github.ryubing.Ryujinx"
+    },
+    "type": "emulator",
+    "systems": [
+		"switch"
+	],
+    "os": [
+        "win32",
+        "linux",
+        "darwin"
+    ]
+}

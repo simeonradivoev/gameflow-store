@@ -1,0 +1,30 @@
+{
+    "name": "XENIA",
+    "description": "Xenia is an open source research project for emulating Xbox 360 games on modern PCs.",
+    "homepage": "https://xenia.jp",
+    "logo": "https://raw.githubusercontent.com/xenia-canary/xenia/master/assets/icon/256.png",
+    "license": {
+        "identifier": "BSD-3-Clause",
+        "url": "https://github.com/has207/xenia-edge/blob/edge/LICENSE"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/has207/xenia-edge.git"
+    },
+    "downloads": {
+        "win32,linux": {
+            "type": "github",
+            "url": "https://github.com/has207/xenia-edge"
+        }
+    },
+    "aliases": {
+        "scoop": "games/xenia-edge"
+    },
+    "type": "emulator",
+    "systems": [
+		"xbox360"
+	],
+    "os": [
+        "win32"
+    ]
+}

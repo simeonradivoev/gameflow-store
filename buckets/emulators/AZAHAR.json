@@ -1,0 +1,35 @@
+{
+    "name": "AZAHAR",
+    "description": "An open-source 3DS emulator project based on Citra.",
+    "homepage": "https://azahar-emu.org/",
+    "logo": "https://azahar-emu.org/resources/images/logo/azahar-logo.svg",
+    "license": {
+        "identifier": "GPL-2.0",
+        "url": "https://github.com/azahar-emu/azahar/blob/master/license.txt"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/azahar-emu/azahar.git"
+    },
+    "downloads": {
+        "win32:x64,linux:x64,darwin:x64,android": {
+            "type": "github",
+            "url": "https://github.com/azahar-emu/azahar"
+        }
+    },
+    "aliases": {
+        "winget": "AzaharEmu.Azahar",
+        "scoop": "games/azahar",
+        "flatpak": "org.azahar_emu.Azahar"
+    },
+    "type": "emulator",
+    "systems": [
+		"3ds"
+	],
+    "os": [
+        "win32",
+        "linux",
+        "darwin",
+        "android"
+    ]
+}
