@@ -1,5 +1,5 @@
 {
-    "name": "CEMU",
+    "name": "RYUJINX",
     "description": "Nintendo Switch 1 emulator written in C#.",
     "homepage": "https://ryujinx.app/",
     "logo": "https://raw.githubusercontent.com/Ryubing/Assets/refs/heads/main/RyujinxApp_1024.png",
