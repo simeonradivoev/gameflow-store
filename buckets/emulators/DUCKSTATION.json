@@ -23,7 +23,7 @@
     },
     "type": "emulator",
     "systems": [
-		"ps1"
+		"psx"
 	],
     "os": [
         "win32",
