@@ -23,6 +23,9 @@
         "flatpak": "net.pcsx2.PCSX2"
     },
     "type": "emulator",
+	"systems": [
+		"ps2"
+	],
     "os": [
         "darwin",
         "linux",
