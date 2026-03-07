@@ -23,8 +23,8 @@
     },
     "type": "emulator",
     "systems": [
-		"psx"
-	],
+        "psx"
+    ],
     "os": [
         "win32",
         "linux",

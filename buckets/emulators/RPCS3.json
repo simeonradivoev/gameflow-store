@@ -1,4 +1,3 @@
-
 {
     "name": "RPCS3",
     "description": "RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux, macOS and FreeBSD.",
@@ -8,7 +7,15 @@
         "identifier": "GPL-2.0",
         "url": "https://github.com/RPCS3/rpcs3/blob/master/LICENSE"
     },
-    "keywords": ["c", "emulation", "emulator", "opengl", "playstation3", "ps3", "multiplatform"],
+    "keywords": [
+        "c",
+        "emulation",
+        "emulator",
+        "opengl",
+        "playstation3",
+        "ps3",
+        "multiplatform"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/RPCS3/rpcs3.git"
@@ -46,8 +53,8 @@
     },
     "type": "emulator",
     "systems": [
-		"ps3"
-	],
+        "ps3"
+    ],
     "os": [
         "win32",
         "darwin",

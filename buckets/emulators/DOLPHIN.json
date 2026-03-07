@@ -11,7 +11,13 @@
         "type": "git",
         "url": "https://github.com/dolphin-emu/dolphin.git"
     },
-    "keywords": ["cemu", "emulation", "cpp", "nintendo", "wiiu"],
+    "keywords": [
+        "cemu",
+        "emulation",
+        "cpp",
+        "nintendo",
+        "wiiu"
+    ],
     "aliases": {
         "winget": "DolphinEmulator.Dolphin",
         "scoop": "games/dolphin",
@@ -19,9 +25,9 @@
     },
     "type": "emulator",
     "systems": [
-		"gc",
+        "gc",
         "wii"
-	],
+    ],
     "os": [
         "win32",
         "linux",

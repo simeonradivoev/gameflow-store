@@ -24,8 +24,8 @@
     },
     "type": "emulator",
     "systems": [
-		"xbox"
-	],
+        "xbox"
+    ],
     "os": [
         "win32",
         "linux",

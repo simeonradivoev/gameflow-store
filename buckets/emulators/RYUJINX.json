@@ -27,8 +27,8 @@
     },
     "type": "emulator",
     "systems": [
-		"switch"
-	],
+        "switch"
+    ],
     "os": [
         "win32",
         "linux",

@@ -22,8 +22,8 @@
     },
     "type": "emulator",
     "systems": [
-		"xbox360"
-	],
+        "xbox360"
+    ],
     "os": [
         "win32"
     ]
