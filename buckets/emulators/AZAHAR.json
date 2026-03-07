@@ -24,8 +24,8 @@
     },
     "type": "emulator",
     "systems": [
-		"3ds"
-	],
+        "3ds"
+    ],
     "os": [
         "win32",
         "linux",
