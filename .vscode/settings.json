@@ -1,0 +1,11 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": ["buckets/emulators/*.json"],
+      "url": "./schema/emulator.json"
+    }
+  ],
+  "[json]": {
+    "editor.formatOnSave": true,
+  }
+}
