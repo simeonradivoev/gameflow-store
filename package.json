@@ -6,6 +6,9 @@
     "publishConfig": {
         "@simeonradivoev:registry": "https://npm.pkg.github.com"
     },
+    "scripts": {
+        "release": "standard-version"
+    },
     "dependencies": {
         "standard-version": "^9.5.0"
     }
