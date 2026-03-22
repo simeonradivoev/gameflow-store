@@ -1,6 +1,13 @@
 # Changelog
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
+
+## [0.0.3](https://github.com/simeonradivoev/gameflow-store/compare/v0.0.2...v0.0.3) (2026-03-22)
+
+
+### Features
+
+* moved to npm ([2edd0b1](https://github.com/simeonradivoev/gameflow-store/commit/2edd0b1b34d1155ebe2f9aee96188fc9923b50fc))
 
 ### [0.0.2](https://github.com/simeonradivoev/gameflow-store/compare/v0.0.1...v0.0.2) (2026-03-22)
 
