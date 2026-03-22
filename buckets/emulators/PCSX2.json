@@ -18,10 +18,20 @@
         "url": "https://github.com/PCSX2/pcsx2.git"
     },
     "downloads": {
-        "win32,linux": {
-            "type": "github",
-            "url": "https://github.com/PCSX2/pcsx2"
-        }
+        "win32:x64": [
+            {
+                "type": "github",
+                "path": "PCSX2/pcsx2",
+                "pattern": "pcsx2-*-windows-x64-Qt.7z"
+            }
+        ],
+        "linux:x64": [
+            {
+                "type": "github",
+                "path": "PCSX2/pcsx2",
+                "pattern": "pcsx2-*-linux-appimage-x64-Qt.AppImage"
+            }
+        ]
     },
     "aliases": {
         "winget": "pcsx2",

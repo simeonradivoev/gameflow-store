@@ -12,10 +12,34 @@
         "url": "https://github.com/xemu-project/xemu.git"
     },
     "downloads": {
-        "win32": {
-            "type": "github",
-            "url": "https://github.com/xemu-project/xemu"
-        }
+        "win32:x64": [
+            {
+                "type": "github",
+                "path": "xemu-project/xemu",
+                "pattern": "xemu-*-windows-x86_64.zip"
+            }
+        ],
+        "win32:arm64": [
+            {
+                "type": "github",
+                "path": "xemu-project/xemu",
+                "pattern": "xemu-*-windows-arm64.zip"
+            }
+        ],
+        "linux:x64": [
+            {
+                "type": "github",
+                "path": "xemu-project/xemu",
+                "pattern": "xemu-*-x86_64.AppImage"
+            }
+        ],
+        "linux:arm64": [
+            {
+                "type": "github",
+                "path": "xemu-project/xemu",
+                "pattern": "xemu-*-aarch64.AppImage"
+            }
+        ]
     },
     "aliases": {
         "winget": "xemu-project.xemu",

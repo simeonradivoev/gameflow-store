@@ -12,10 +12,20 @@
         "url": "https://github.com/azahar-emu/azahar.git"
     },
     "downloads": {
-        "win32:x64,linux:x64,darwin:x64,android": {
-            "type": "github",
-            "url": "https://github.com/azahar-emu/azahar"
-        }
+        "win32:x64": [
+            {
+                "type": "github",
+                "path": "azahar-emu/azahar",
+                "pattern": "azahar-*-windows-msvc.zip"
+            }
+        ],
+        "linux:x64": [
+            {
+                "type": "github",
+                "path": "azahar-emu/azahar",
+                "pattern": "azahar-wayland.AppImage"
+            }
+        ]
     },
     "aliases": {
         "winget": "AzaharEmu.Azahar",

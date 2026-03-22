@@ -12,10 +12,13 @@
         "url": "https://github.com/xenia-project/xenia.git"
     },
     "downloads": {
-        "win32": {
-            "type": "github",
-            "url": "https://github.com/xenia-project/release-builds-windows"
-        }
+        "win32:x64": [
+            {
+                "type": "github",
+                "path": "xenia-project/release-builds-windows",
+                "pattern": "xenia_master.zip"
+            }
+        ]
     },
     "aliases": {
         "winget": "xenia-project.xenia",

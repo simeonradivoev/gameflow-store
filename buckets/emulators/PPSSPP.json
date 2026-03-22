@@ -22,10 +22,34 @@
         "url": "https://github.com/hrydgard/ppsspp.git"
     },
     "downloads": {
-        "win32,darwin,linux": {
-            "type": "github",
-            "url": "https://github.com/hrydgard/ppsspp.git"
-        }
+        "win32:x64": [
+            {
+                "type": "github",
+                "path": "hrydgard/ppsspp",
+                "pattern": "PPSSPP-*-Windows-x64.zip"
+            }
+        ],
+        "win32:arm64": [
+            {
+                "type": "github",
+                "path": "hrydgard/ppsspp",
+                "pattern": "PPSSPP-*-Windows-ARM64.zip"
+            }
+        ],
+        "linux:x64": [
+            {
+                "type": "github",
+                "path": "hrydgard/ppsspp",
+                "pattern": "PPSSPP-*-anylinux-x86_64.AppImage"
+            }
+        ],
+        "linux:arm64": [
+            {
+                "type": "github",
+                "path": "hrydgard/ppsspp",
+                "pattern": "PPSSPP-*-anylinux-aarch64.AppImage"
+            }
+        ]
     },
     "aliases": {
         "winget": "PPSSPPTeam.PPSSPP",

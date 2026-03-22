@@ -12,10 +12,27 @@
         "url": "https://git.ryujinx.app/ryubing/ryujinx.git"
     },
     "downloads": {
-        "win32:x64,linux:x64,linux:arm64,darwin": {
-            "type": "gitlab",
-            "url": "https://git.ryujinx.app/ryubing/ryujinx/"
-        }
+        "win32:x64": [
+            {
+                "type": "gitlab",
+                "path": "ryubing/ryujinx",
+                "pattern": "ryujinx-*-win_x64.zip"
+            }
+        ],
+        "linux:x64": [
+            {
+                "type": "gitlab",
+                "path": "ryubing/ryujinx",
+                "pattern": "ryujinx-*-x64.AppImage"
+            }
+        ],
+        "linux:arm64": [
+            {
+                "type": "gitlab",
+                "path": "ryubing/ryujinx",
+                "pattern": "ryujinx-*-arm64.AppImage"
+            }
+        ]
     },
     "notes": [
         "ATTENTION: Ryujinx requires Nintendo Switch firmware and a prod.keys file to function.",

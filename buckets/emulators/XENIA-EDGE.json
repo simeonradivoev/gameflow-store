@@ -12,10 +12,20 @@
         "url": "https://github.com/has207/xenia-edge.git"
     },
     "downloads": {
-        "win32,linux": {
-            "type": "github",
-            "url": "https://github.com/has207/xenia-edge"
-        }
+        "win32:x64": [
+            {
+                "type": "github",
+                "path": "has207/xenia-edge",
+                "pattern": "xenia_edge_windows.zip"
+            }
+        ],
+        "linux:x64": [
+            {
+                "type": "github",
+                "path": "has207/xenia-edge",
+                "pattern": "xenia_edge_linux.AppImage"
+            }
+        ]
     },
     "aliases": {
         "scoop": "games/xenia-edge"

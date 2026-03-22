@@ -21,30 +21,48 @@
         "url": "https://github.com/RPCS3/rpcs3.git"
     },
     "downloads": {
-        "win32:x64": {
-            "type": "github",
-            "url": "https://github.com/RPCS3/rpcs3-binaries-win"
-        },
-        "win32:arm64": {
-            "type": "github",
-            "url": "https://github.com/RPCS3/rpcs3-binaries-win-arm64"
-        },
-        "linux:x64": {
-            "type": "github",
-            "url": "https://github.com/RPCS3/rpcs3-binaries-linux"
-        },
-        "linux:arm64": {
-            "type": "github",
-            "url": "https://github.com/RPCS3/rpcs3-binaries-linux-arm64"
-        },
-        "darwin": {
-            "type": "github",
-            "url": "https://github.com/RPCS3/rpcs3-binaries-mac"
-        },
-        "darwin:arm64": {
-            "type": "github",
-            "url": "https://github.com/RPCS3/rpcs3-binaries-mac-arm64"
-        }
+        "win32:x64": [
+            {
+                "type": "github",
+                "path": "RPCS3/rpcs3-binaries-win",
+                "pattern": "rpcs3-*_win64_msvc.7z"
+            }
+        ],
+        "win32:arm64": [
+            {
+                "type": "github",
+                "path": "RPCS3/rpcs3-binaries-win-arm64",
+                "pattern": "rpcs3-*_win64_aarch64_clang.7z "
+            }
+        ],
+        "linux:x64": [
+            {
+                "type": "github",
+                "path": "RPCS3/rpcs3-binaries-linux",
+                "pattern": "rpcs3-*_linux64.AppImage"
+            }
+        ],
+        "linux:arm64": [
+            {
+                "type": "github",
+                "path": "RPCS3/rpcs3-binaries-linux-arm64",
+                "pattern": "rpcs3-*_linux_aarch64.AppImage"
+            }
+        ],
+        "darwin:x64": [
+            {
+                "type": "github",
+                "path": "RPCS3/rpcs3-binaries-mac",
+                "pattern": "rpcs3-*_macos.7z"
+            }
+        ],
+        "darwin:arm64": [
+            {
+                "type": "github",
+                "path": "RPCS3/rpcs3-binaries-mac-arm64",
+                "pattern": "rpcs3-*_macos_aarch64.7z"
+            }
+        ]
     },
     "aliases": {
         "winget": "PPSSPPTeam.PPSSPP",

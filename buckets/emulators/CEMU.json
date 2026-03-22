@@ -12,10 +12,20 @@
         "url": "https://github.com/cemu-project/Cemu.git"
     },
     "downloads": {
-        "win32:x64,linux:x64,darwin:x64": {
-            "type": "github",
-            "url": "https://github.com/cemu-project/Cemu"
-        }
+        "win32:x64": [
+            {
+                "type": "github",
+                "path": "cemu-project/Cemu",
+                "pattern": "cemu-*-windows-x64.zip"
+            }
+        ],
+        "linux:x64": [
+            {
+                "type": "github",
+                "path": "cemu-project/Cemu",
+                "pattern": "Cemu-*-x86_64.AppImage"
+            }
+        ]
     },
     "keywords": [
         "cemu",
