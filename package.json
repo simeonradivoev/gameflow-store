@@ -1,15 +1,32 @@
 {
     "name": "@simeonradivoev/gameflow-store",
     "version": "0.0.2",
+    "description": "Gameflow Store",
+    "keywords": [
+        "store"
+    ],
+    "homepage": "https://github.com/simeonradivoev/gameflow-store#readme",
+    "bugs": {
+        "url": "https://github.com/simeonradivoev/gameflow-store/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/simeonradivoev/gameflow-store.git"
+    },
+    "license": "AGPL-3.0",
+    "author": "Simeon Radivoev",
     "type": "module",
     "main": "index.js",
-    "publishConfig": {
-        "@simeonradivoev:registry": "https://npm.pkg.github.com"
-    },
+    "files": [
+        "buckets/**/*",
+        "media/**/*",
+        "schema/**/*"
+    ],
     "scripts": {
-        "release": "standard-version"
+        "release": "npx commit-and-tag-version"
     },
-    "dependencies": {
-        "standard-version": "^9.5.0"
+    "devDependencies": {},
+    "publishConfig": {
+        "access": "public"
     }
 }
