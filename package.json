@@ -5,5 +5,8 @@
     "main": "index.js",
     "publishConfig": {
         "@simeonradivoev:registry": "https://npm.pkg.github.com"
+    },
+    "dependencies": {
+        "standard-version": "^9.5.0"
     }
 }
