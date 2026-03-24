@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.0.5](https://github.com/simeonradivoev/gameflow-store/compare/v0.0.4...v0.0.5) (2026-03-24)
+
+
+### Bug Fixes
+
+* Added rom requirement info ([e1faa8c](https://github.com/simeonradivoev/gameflow-store/commit/e1faa8ca65e9505a23bea9258441d193d7b0a961))
+
 ## [0.0.4](https://github.com/simeonradivoev/gameflow-store/compare/v0.0.3...v0.0.4) (2026-03-22)
 
 ## [0.0.3](https://github.com/simeonradivoev/gameflow-store/compare/v0.0.2...v0.0.3) (2026-03-22)
