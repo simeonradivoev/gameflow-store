@@ -17,6 +17,7 @@
         "type": "git",
         "url": "https://github.com/PCSX2/pcsx2.git"
     },
+    "bios": "required",
     "downloads": {
         "win32:x64": [
             {

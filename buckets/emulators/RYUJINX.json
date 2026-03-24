@@ -43,6 +43,7 @@
         "flatpak": "io.github.ryubing.Ryujinx"
     },
     "type": "emulator",
+    "bios": "required",
     "systems": [
         "switch"
     ],

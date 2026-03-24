@@ -33,6 +33,7 @@
         "flatpak": "org.azahar_emu.Azahar"
     },
     "type": "emulator",
+    "bios": "required",
     "systems": [
         "3ds"
     ],

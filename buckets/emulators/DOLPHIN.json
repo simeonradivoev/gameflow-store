@@ -18,6 +18,7 @@
         "nintendo",
         "wiiu"
     ],
+    "bios": "optional",
     "aliases": {
         "winget": "DolphinEmulator.Dolphin",
         "scoop": "games/dolphin",

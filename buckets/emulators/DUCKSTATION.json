@@ -46,6 +46,7 @@
         "scoop": "games/duckstation"
     },
     "type": "emulator",
+    "bios": "required",
     "systems": [
         "psx"
     ],

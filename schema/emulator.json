@@ -28,6 +28,13 @@
         }
       }
     },
+    "bios": {
+      "type": "string",
+      "enum": [
+        "required",
+        "optional"
+      ]
+    },
     "repository": {
       "type": "object",
       "properties": {

@@ -70,6 +70,7 @@
         "flatpak": "net.rpcs3.RPCS3"
     },
     "type": "emulator",
+    "bios": "required",
     "systems": [
         "ps3"
     ],
