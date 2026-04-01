@@ -17,6 +17,10 @@
                 "type": "github",
                 "path": "has207/xenia-edge",
                 "pattern": "xenia_edge_windows.zip"
+            },
+            {
+                "type": "scoop",
+                "url": "https://cdn.jsdelivr.net/gh/Calinou/scoop-games@latest/bucket/xenia-edge.json"
             }
         ],
         "linux:x64": [

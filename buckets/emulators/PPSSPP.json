@@ -27,6 +27,10 @@
                 "type": "github",
                 "path": "hrydgard/ppsspp",
                 "pattern": "PPSSPP-*-Windows-x64.zip"
+            },
+            {
+                "type": "scoop",
+                "url": "https://cdn.jsdelivr.net/gh/Calinou/scoop-games@latest/bucket/ppsspp.json"
             }
         ],
         "win32:arm64": [
@@ -34,6 +38,10 @@
                 "type": "github",
                 "path": "hrydgard/ppsspp",
                 "pattern": "PPSSPP-*-Windows-ARM64.zip"
+            },
+            {
+                "type": "scoop",
+                "url": "https://cdn.jsdelivr.net/gh/Calinou/scoop-games@latest/bucket/ppsspp.json"
             }
         ],
         "linux:x64": [

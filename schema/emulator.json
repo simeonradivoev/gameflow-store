@@ -56,33 +56,69 @@
         "^(?:(aix|darwin|freebsd|linux|openbsd|sunos|win32|android):(arm|arm64|ia32|mips|mipsel|ppc|ppc64|s390|s390x|x32|x64))*$": {
           "type": "array",
           "items": {
-            "type": "object",
-            "properties": {
-              "type": {
-                "type": "string",
-                "enum": [
-                  "github",
-                  "gitlab"
+            "oneOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "type": {
+                    "const": "github"
+                  },
+                  "host": {
+                    "type": "string",
+                    "format": "uri"
+                  },
+                  "bin": {
+                    "type": "string"
+                  },
+                  "pattern": {
+                    "type": "string"
+                  },
+                  "path": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "path",
+                  "pattern"
                 ]
               },
-              "url": {
-                "type": "string",
-                "format": "uri"
+              {
+                "type": "object",
+                "properties": {
+                  "type": {
+                    "const": "direct"
+                  },
+                  "url": {
+                    "type": "string",
+                    "format": "uri"
+                  },
+                  "bin": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "url"
+                ]
               },
-              "path": {
-                "type": "string"
-              },
-              "bin": {
-                "type": "string"
-              },
-              "pattern": {
-                "type": "string"
+              {
+                "type": "object",
+                "properties": {
+                  "type": {
+                    "const": "scoop"
+                  },
+                  "url": {
+                    "type": "string",
+                    "format": "uri"
+                  }
+                },
+                "required": [
+                  "url"
+                ]
               }
-            },
-            "additionalProperties": false,
+            ],
+            "unevaluatedProperties": false,
             "required": [
-              "type",
-              "pattern"
+              "type"
             ]
           }
         }

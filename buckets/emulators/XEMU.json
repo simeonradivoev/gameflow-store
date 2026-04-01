@@ -17,6 +17,10 @@
                 "type": "github",
                 "path": "xemu-project/xemu",
                 "pattern": "xemu-*-windows-x86_64.zip"
+            },
+            {
+                "type": "scoop",
+                "url": "https://cdn.jsdelivr.net/gh/Calinou/scoop-games@latest/bucket/xemu.json"
             }
         ],
         "win32:arm64": [
@@ -24,6 +28,10 @@
                 "type": "github",
                 "path": "xemu-project/xemu",
                 "pattern": "xemu-*-windows-arm64.zip"
+            },
+            {
+                "type": "scoop",
+                "url": "https://cdn.jsdelivr.net/gh/Calinou/scoop-games@latest/bucket/xemu.json"
             }
         ],
         "linux:x64": [

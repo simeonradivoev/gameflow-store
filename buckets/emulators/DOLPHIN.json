@@ -11,6 +11,28 @@
         "type": "git",
         "url": "https://github.com/dolphin-emu/dolphin.git"
     },
+    "downloads": {
+        "linux:x64": [
+            {
+                "type": "github",
+                "path": "pkgforge-dev/Dolphin-emu-AppImage",
+                "pattern": "Dolphin_Emulator-*-anylinux-x86_64.AppImage "
+            }
+        ],
+        "linux:arm64": [
+            {
+                "type": "github",
+                "path": "pkgforge-dev/Dolphin-emu-AppImage",
+                "pattern": "Dolphin_Emulator-*-anylinux-aarch64.AppImage"
+            }
+        ],
+        "win32:x64": [
+            {
+                "type": "scoop",
+                "url": "https://cdn.jsdelivr.net/gh/Calinou/scoop-games@latest/bucket/dolphin.json"
+            }
+        ]
+    },
     "keywords": [
         "cemu",
         "emulation",

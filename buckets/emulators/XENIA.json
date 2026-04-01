@@ -17,6 +17,10 @@
                 "type": "github",
                 "path": "xenia-project/release-builds-windows",
                 "pattern": "xenia_master.zip"
+            },
+            {
+                "type": "scoop",
+                "url": "https://cdn.jsdelivr.net/gh/Calinou/scoop-games@latest/bucket/xenia.json"
             }
         ]
     },

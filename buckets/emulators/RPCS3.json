@@ -26,6 +26,10 @@
                 "type": "github",
                 "path": "RPCS3/rpcs3-binaries-win",
                 "pattern": "rpcs3-*_win64_msvc.7z"
+            },
+            {
+                "type": "scoop",
+                "url": "https://cdn.jsdelivr.net/gh/Calinou/scoop-games@latest/bucket/rpcs3.json"
             }
         ],
         "win32:arm64": [
@@ -33,6 +37,10 @@
                 "type": "github",
                 "path": "RPCS3/rpcs3-binaries-win-arm64",
                 "pattern": "rpcs3-*_win64_aarch64_clang.7z "
+            },
+            {
+                "type": "scoop",
+                "url": "https://cdn.jsdelivr.net/gh/Calinou/scoop-games@latest/bucket/rpcs3.json"
             }
         ],
         "linux:x64": [

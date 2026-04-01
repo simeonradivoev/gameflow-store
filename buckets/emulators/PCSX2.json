@@ -24,6 +24,10 @@
                 "type": "github",
                 "path": "PCSX2/pcsx2",
                 "pattern": "pcsx2-*-windows-x64-Qt.7z"
+            },
+            {
+                "type": "scoop",
+                "url": "https://cdn.jsdelivr.net/gh/Calinou/scoop-games@latest/bucket/pcsx2.json"
             }
         ],
         "linux:x64": [

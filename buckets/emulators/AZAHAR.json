@@ -17,6 +17,10 @@
                 "type": "github",
                 "path": "azahar-emu/azahar",
                 "pattern": "azahar-*-windows-msvc.zip"
+            },
+            {
+                "type": "scoop",
+                "url": "https://cdn.jsdelivr.net/gh/Calinou/scoop-games@latest/bucket/azahar.json"
             }
         ],
         "linux:x64": [

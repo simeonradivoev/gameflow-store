@@ -17,6 +17,10 @@
                 "type": "github",
                 "path": "cemu-project/Cemu",
                 "pattern": "cemu-*-windows-x64.zip"
+            },
+            {
+                "type": "scoop",
+                "url": "https://cdn.jsdelivr.net/gh/Calinou/scoop-games@latest/bucket/cemu.json"
             }
         ],
         "linux:x64": [

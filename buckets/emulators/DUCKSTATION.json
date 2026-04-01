@@ -17,6 +17,10 @@
                 "type": "github",
                 "path": "stenzek/duckstation",
                 "pattern": "duckstation-windows-x64-release.zip"
+            },
+            {
+                "type": "scoop",
+                "url": "https://cdn.jsdelivr.net/gh/Calinou/scoop-games@latest/bucket/duckstation.json"
             }
         ],
         "win32:arm64": [
@@ -24,6 +28,10 @@
                 "type": "github",
                 "path": "stenzek/duckstation",
                 "pattern": "duckstation-windows-arm64-release.zip"
+            },
+            {
+                "type": "scoop",
+                "url": "https://cdn.jsdelivr.net/gh/Calinou/scoop-games@latest/bucket/duckstation.json"
             }
         ],
         "linux:x64": [

@@ -17,6 +17,10 @@
                 "type": "gitlab",
                 "path": "ryubing/ryujinx",
                 "pattern": "ryujinx-*-win_x64.zip"
+            },
+            {
+                "type": "scoop",
+                "url": "https://cdn.jsdelivr.net/gh/Calinou/scoop-games@latest/bucket/ryujinx.json"
             }
         ],
         "linux:x64": [
