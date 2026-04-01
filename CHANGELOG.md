@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.0.6](https://github.com/simeonradivoev/gameflow-store/compare/v0.0.5...v0.0.6) (2026-04-01)
+
+
+### Features
+
+* Added scoop as download url and updated schema ([2b9b598](https://github.com/simeonradivoev/gameflow-store/commit/2b9b59821d12c28897afa8df91997f67ac098e9e))
+
 ## [0.0.5](https://github.com/simeonradivoev/gameflow-store/compare/v0.0.4...v0.0.5) (2026-03-24)
 
 
