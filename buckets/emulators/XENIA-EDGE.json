@@ -1,6 +1,6 @@
 {
-    "name": "XENIA",
-    "description": "Xenia is an open source research project for emulating Xbox 360 games on modern PCs.",
+    "name": "XENIA-EDGE",
+    "description": "Xenia Edge is yet another experimental fork of the Xenia emulator, mainly based on Xenia Canary but with the aim of quicker iteration and improvements to Vulkan backend and Linux platform in particular. Windows of course remains fully supported as well and will benefit from changes made here especially with its Vulkan backend.",
     "homepage": "https://xenia.jp",
     "logo": "https://raw.githubusercontent.com/xenia-canary/xenia/master/assets/icon/256.png",
     "license": {
