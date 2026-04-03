@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.0.8](https://github.com/simeonradivoev/gameflow-store/compare/v0.0.7...v0.0.8) (2026-04-03)
+
+
+### Bug Fixes
+
+* Fixed xenia and xenia edge mixed up names ([50c9b48](https://github.com/simeonradivoev/gameflow-store/commit/50c9b4865a4ed06679ef3cf0c9d14fe485ed750d))
+
 ## [0.0.7](https://github.com/simeonradivoev/gameflow-store/compare/v0.0.6...v0.0.7) (2026-04-03)
 
 
