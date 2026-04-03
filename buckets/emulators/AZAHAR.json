@@ -16,7 +16,7 @@
             {
                 "type": "github",
                 "path": "azahar-emu/azahar",
-                "pattern": "azahar-*-windows-msvc.zip"
+                "pattern": "azahar-windows-msvc-*.zip"
             },
             {
                 "type": "scoop",
