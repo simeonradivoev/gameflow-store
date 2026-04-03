@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.0.7](https://github.com/simeonradivoev/gameflow-store/compare/v0.0.6...v0.0.7) (2026-04-03)
+
+
+### Bug Fixes
+
+* Fixed azahar windows pattern ([45544f7](https://github.com/simeonradivoev/gameflow-store/commit/45544f78654cbb75909821bb075ca7fb4e7bb5f8))
+
 ## [0.0.6](https://github.com/simeonradivoev/gameflow-store/compare/v0.0.5...v0.0.6) (2026-04-01)
 
 
