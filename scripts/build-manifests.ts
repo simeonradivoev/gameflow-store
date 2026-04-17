@@ -1,6 +1,10 @@
-import { Glob } from "bun";
+import { glob, readFile, writeFile, mkdir } from "fs/promises";
+import { existsSync } from "fs";
 
-const files = new Glob("./buckets/games/*.json").scan();
+const files: string[] = [];
+for await (const file of glob("./buckets/games/*.json")) {
+  files.push(file);
+}
 const genresSet = new Set<string>();
 const keywordsSet = new Set<string>();
 const playerCountSet = new Set<string>();
@@ -8,7 +12,7 @@ const companiesSet = new Set<string>();
 let gameCount = 0;
 
 for await (const file of files) {
-  const json = await Bun.file(file).json();
+  const json = JSON.parse(await readFile(file, "utf8"));
   gameCount++;
   if (json.genres) {
     json.genres.forEach((g: string) => genresSet.add(g));
@@ -24,7 +28,8 @@ for await (const file of files) {
   }
 }
 
-await Bun.write(
+if (!existsSync("./manifests")) await mkdir("./manifests");
+await writeFile(
   "./manifests/filters.json",
   JSON.stringify(
     {

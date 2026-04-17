@@ -15,14 +15,14 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v6
 
-      - name: Bun Install
-        uses: oven-sh/setup-bun@v2
+      - name: Node Install
+        uses: actions/setup-node@v6
         with:
           node-version: 24
-          registries: 'https://registry.npmjs.org'
+          registry-url: 'https://registry.npmjs.org'
 
       - name: Install dependencies
-        run: bun install --frozen-lockfile
+        run: npm ci
 
       - name: Publish package
-        run: bun publish
+        run: npm publish
