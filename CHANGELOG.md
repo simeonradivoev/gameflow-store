@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.1.0](https://github.com/simeonradivoev/gameflow-store/compare/v0.0.8...v0.1.0) (2026-04-17)
+
+
+### ⚠ BREAKING CHANGES
+
+* Added first games and moved to bun
+
+### Features
+
+* Added first games and moved to bun ([f62a2ba](https://github.com/simeonradivoev/gameflow-store/commit/f62a2baef0347f0d63ef9e549f91751adc74a2df))
+
 ## [0.0.8](https://github.com/simeonradivoev/gameflow-store/compare/v0.0.7...v0.0.8) (2026-04-03)
 
 
