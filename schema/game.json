@@ -1,0 +1,186 @@
+{
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string"
+        },
+        "description": {
+            "type": "string"
+        },
+        "version": {
+            "type": "string"
+        },
+        "homepage": {
+            "type": "string",
+            "format": "uri"
+        },
+        "covers": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "screenshots": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "saves": {
+            "type": "object",
+            "patternProperties": {
+                ".*": {
+                    "type": "object",
+                    "patternProperties": {
+                        ".*": {
+                            "type": "object",
+                            "properties": {
+                                "cwd": {
+                                    "type": "string"
+                                },
+                                "globs": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "downloads": {
+            "type": "object",
+            "patternProperties": {
+                ".*": {
+                    "oneOf": [
+                        {
+                            "type": "object",
+                            "properties": {
+                                "type": {
+                                    "const": "direct"
+                                },
+                                "url": {
+                                    "type": "string",
+                                    "format": "uri"
+                                },
+                                "system": {
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "type": "string"
+                                },
+                                "main": {
+                                    "type": "string"
+                                },
+                                "saves": {
+                                    "type": "object",
+                                    "patternProperties": {
+                                        ".*": {
+                                            "type": "object",
+                                            "properties": {
+                                                "cwd": {
+                                                    "type": "string"
+                                                },
+                                                "globs": {
+                                                    "type": "array",
+                                                    "items": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            },
+                                            "required": [
+                                                "cwd",
+                                                "globs"
+                                            ]
+                                        }
+                                    }
+                                }
+                            },
+                            "required": [
+                                "type",
+                                "url",
+                                "system"
+                            ]
+                        },
+                        {
+                            "type": "object",
+                            "properties": {
+                                "type": {
+                                    "const": "itch"
+                                },
+                                "path": {
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "type": "string"
+                                }
+                            },
+                            "required": [
+                                "type",
+                                "path"
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "companies": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "genres": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "system": {
+            "type": "string"
+        },
+        "igdb_id": {
+            "type": "number"
+        },
+        "ra_id": {
+            "type": "number"
+        },
+        "sgdb_id": {
+            "type": "number"
+        },
+        "keywords": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "first_release_date": {
+            "oneOf": [
+                {
+                    "type": "number"
+                },
+                {
+                    "type": "string",
+                    "format": "date"
+                }
+            ]
+        },
+        "player_count": {
+            "type": "string"
+        },
+        "age_ratings": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        }
+    },
+    "required": [
+        "name",
+        "homepage",
+        "covers",
+        "version"
+    ]
+}

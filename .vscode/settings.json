@@ -3,6 +3,10 @@
     {
       "fileMatch": ["buckets/emulators/*.json"],
       "url": "./schema/emulator.json"
+    },
+    {
+      "fileMatch": ["buckets/games/*.json"],
+      "url": "./schema/game.json"
     }
   ],
   "[json]": {

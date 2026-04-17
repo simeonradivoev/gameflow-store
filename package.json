@@ -1,32 +1,37 @@
 {
     "name": "@simeonradivoev/gameflow-store",
     "version": "0.0.8",
-    "description": "Gameflow Store",
-    "keywords": [
-        "store"
-    ],
-    "homepage": "https://github.com/simeonradivoev/gameflow-store#readme",
-    "bugs": {
-        "url": "https://github.com/simeonradivoev/gameflow-store/issues"
-    },
+    "author": "Simeon Radivoev",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/simeonradivoev/gameflow-store.git"
     },
-    "license": "AGPL-3.0",
-    "author": "Simeon Radivoev",
-    "type": "module",
     "main": "index.js",
+    "devDependencies": {
+        "@types/bun": "^1.3.12"
+    },
+    "bugs": {
+        "url": "https://github.com/simeonradivoev/gameflow-store/issues"
+    },
+    "description": "Gameflow Store",
     "files": [
         "buckets/**/*",
+        "manifests/*",
         "media/**/*",
         "schema/**/*"
     ],
-    "scripts": {
-        "release": "npx commit-and-tag-version"
-    },
-    "devDependencies": {},
+    "homepage": "https://github.com/simeonradivoev/gameflow-store#readme",
+    "keywords": [
+        "store"
+    ],
+    "license": "AGPL-3.0",
     "publishConfig": {
         "access": "public"
-    }
+    },
+    "scripts": {
+        "release": "npx commit-and-tag-version",
+        "release:dryrun": "bun release -- --dry-run",
+        "prepublishOnly": "bun scripts/build-manifests.ts"
+    },
+    "type": "module"
 }

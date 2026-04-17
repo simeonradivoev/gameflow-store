@@ -1,0 +1,89 @@
+{
+    "name": "Quake Brutalist Jam 3",
+    "version": "1.3.0",
+    "homepage": "https://www.slipseer.com/index.php?resources/quake-brutalist-jam-iii.549/",
+    "description": "Quake Brutalist Jam III is a megalithic community project more than a year in the making. It features an entirely new arsenal, a set of new monsters, new powerups, and a complete visual overhaul of Quake's existing roster. The community came out in force, producing an unprecedented 77 maps, pushing the limits of the Quake engine to bring the oppressive, gritty, and beautiful aesthetic of brutalism to life.",
+    "covers": [
+        "./media/covers/quake-brutalist-jam-3.webp",
+        "https://images.igdb.com/igdb/image/upload/t_cover_big/cob6g0.webp"
+    ],
+    "screenshots": [
+        "https://www.slipseer.com/index.php?attachments/qbj3_hcm-jpg.7076/",
+        "https://www.slipseer.com/index.php?attachments/qbj3_id0-jpg.7077/",
+        "https://www.slipseer.com/index.php?attachments/qbj3_janvanderweg-jpg.7078/",
+        "https://www.slipseer.com/index.php?attachments/qbj3_pulsar-jpg.7079/",
+        "https://www.slipseer.com/index.php?attachments/qbj3_sze-jpg.7080/",
+        "https://www.slipseer.com/index.php?attachments/qbj3_zbidou-jpg.7081/",
+        "https://www.slipseer.com/index.php?attachments/qbj3_zetabyt-jpg.7082/"
+    ],
+    "saves": {
+        "win32:x64": {
+            "saves": {
+                "cwd": "{{GAMEDIR}}",
+                "globs": [
+                    "qbj3/autosave/*.sav",
+                    "qbj3/*.sav"
+                ]
+            }
+        }
+    },
+    "downloads": {
+        "win-eu": {
+            "name": "EU",
+            "type": "direct",
+            "url": "https://eu.22061996.xyz/qbj3/qbj3_1.3_standalone.zip",
+            "system": "win32:x64",
+            "main": "**/QBJ3.exe"
+        },
+        "win-us": {
+            "name": "US",
+            "type": "direct",
+            "url": "https://us.22061996.xyz/qbj3/qbj3_1.3_standalone.zip",
+            "system": "win32:x64",
+            "main": "**/QBJ3.exe"
+        },
+        "win-asia": {
+            "name": "Asia",
+            "type": "direct",
+            "url": "https://asia.22061996.xyz/qbj3/qbj3_1.3_standalone.zip",
+            "system": "win32:x64",
+            "main": "**/QBJ3.exe"
+        },
+        "linux-eu": {
+            "name": "EU",
+            "type": "direct",
+            "url": "https://eu.22061996.xyz/qbj3/qbj3_1.3_standalone.zip",
+            "system": "linux:x64",
+            "main": "**/QBJ3_Linux"
+        },
+        "linux-us": {
+            "name": "US",
+            "type": "direct",
+            "url": "https://us.22061996.xyz/qbj3/qbj3_1.3_standalone.zip",
+            "system": "linux:x64",
+            "main": "**/QBJ3_Linux"
+        },
+        "linux-asia": {
+            "name": "Asia",
+            "type": "direct",
+            "url": "https://asia.22061996.xyz/qbj3/qbj3_1.3_standalone.zip",
+            "system": "linux:x64",
+            "main": "**/QBJ3_Linux"
+        }
+    },
+    "companies": [
+        "Slipseer"
+    ],
+    "player_count": "1",
+    "igdb_id": 383621,
+    "genres": [
+        "Shooter"
+    ],
+    "keywords": [
+        "quake",
+        "jam",
+        "brutalism",
+        "brutalist",
+        "qbj3"
+    ]
+}

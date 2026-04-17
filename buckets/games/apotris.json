@@ -1,0 +1,50 @@
+{
+    "name": "Apotris",
+    "homepage": "https://akouzoukos.com/apotris",
+    "version": "4.1.0",
+    "covers": [
+        "./media/covers/apotris.webp",
+        "https://images.igdb.com/igdb/image/upload/t_cover_big/co6r9q.webp"
+    ],
+    "screenshots": [
+        "https://images.igdb.com/igdb/image/upload/t_720p/sck6m8.jpg"
+    ],
+    "description": "Apotris is a free multiplatform open-source block stacking game! What sets Apotris apart from other block stacking games is its extensive customization options, complemented by ultra-responsive controls that let you execute your moves with precision. With 14 unique game modes and a plethora of settings, you can tailor the game to your preferences, ensuring a fresh and challenging experience every time you play.",
+    "donation": "https://ko-fi.com/akouzoukos",
+    "downloads": {
+        "gba": {
+            "type": "direct",
+            "url": "https://apotrisstorage.blob.core.windows.net/binaries/Apotris-v4.1.0GBA.zip",
+            "system": "gba"
+        },
+        "win": {
+            "type": "direct",
+            "url": "https://apotrisstorage.blob.core.windows.net/binaries/Apotris-v4.1.0Windows-x64.zip",
+            "system": "win32:x64",
+            "saves": {
+                "saves": {
+                    "cwd": "{{GAMEDIR}}",
+                    "globs": [
+                        "*.sav"
+                    ]
+                }
+            }
+        }
+    },
+    "genres": [
+        "Puzzle",
+        "Indie",
+        "Arcade"
+    ],
+    "keywords": [
+        "open-source",
+        "homebrew",
+        "retroachievements"
+    ],
+    "player_count": "1",
+    "companies": [
+        "akouzoukos"
+    ],
+    "igdb_id": 227679,
+    "ra_id": 29025
+}

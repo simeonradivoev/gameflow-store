@@ -1,0 +1,36 @@
+{
+    "name": "The Bouncing Ball",
+    "homepage": "https://gamejolt.com/games/the-bouncing-ball-gb/86699",
+    "version": "1.0.0",
+    "covers": [
+        "./media/covers/the-bouncing-ball.webp",
+        "https://raw.githubusercontent.com/EmuDeck/emudeck-homebrew/main/downloaded_media/gb/titlescreens/homebrew/THEBOUNCINGBALL.png?raw=true"
+    ],
+    "screenshots": [
+        "https://raw.githubusercontent.com/EmuDeck/emudeck-homebrew/main/downloaded_media/gb/screenshots/homebrew/THEBOUNCINGBALL.png?raw=true"
+    ],
+    "description": "The Bouncing Ball is a physics-based puzzle platformer homebrew game for the Game Boy.",
+    "downloads": {
+        "db": {
+            "type": "direct",
+            "url": "https://raw.githubusercontent.com/EmuDeck/emudeck-homebrew/refs/heads/main/gb/THEBOUNCINGBALL.zip",
+            "system": "gb"
+        }
+    },
+    "companies": [
+        "HuCABBAGE"
+    ],
+    "genres": [
+        "Platform",
+        "Puzzle"
+    ],
+    "keywords": [
+        "retroachievements",
+        "homebrew"
+    ],
+    "igdb_id": 195207,
+    "ra_id": 6631,
+    "sgdb_id": 5487741,
+    "first_release_date": 1439769600000,
+    "player_count": "1"
+}
