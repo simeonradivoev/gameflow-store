@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.1.2](https://github.com/simeonradivoev/gameflow-store/compare/v0.1.1...v0.1.2) (2026-04-20)
+
+
+### Bug Fixes
+
+* Added bin to UMU ([9903f5d](https://github.com/simeonradivoev/gameflow-store/commit/9903f5d6e752cd1ae3e61277640c10e956219a2e))
+
 ## [0.1.1](https://github.com/simeonradivoev/gameflow-store/compare/v0.1.0...v0.1.1) (2026-04-20)
 
 
