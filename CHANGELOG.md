@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.1.1](https://github.com/simeonradivoev/gameflow-store/compare/v0.1.0...v0.1.1) (2026-04-20)
+
+
+### Features
+
+* Added UMU launcher ([c1658c4](https://github.com/simeonradivoev/gameflow-store/commit/c1658c40fa9fba9aa9f4ea1669590ff46d75f150))
+
 ## [0.1.0](https://github.com/simeonradivoev/gameflow-store/compare/v0.0.8...v0.1.0) (2026-04-17)
 
 
