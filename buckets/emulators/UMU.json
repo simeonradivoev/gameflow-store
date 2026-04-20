@@ -1,0 +1,32 @@
+{
+    "name": "UMU",
+    "description": "Unified launcher for Windows games on Linux. It is essentially a copy of the Steam Runtime Tools and Steam Linux Runtime that Valve uses for Proton, with some modifications made so that it can be used outside of Steam.",
+    "homepage": "https://github.com/Open-Wine-Components/umu-launcher",
+    "logo": "https://avatars.githubusercontent.com/u/119976475",
+    "license": {
+        "identifier": "GPL-3.0",
+        "url": "https://github.com/Open-Wine-Components/umu-launcher/blob/main/LICENSE"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Open-Wine-Components/umu-launcher.git"
+    },
+    "downloads": {
+        "linux:x64": [
+            {
+                "type": "github",
+                "path": "Open-Wine-Components/umu-launcher",
+                "pattern": "umu-launcher-*-zipapp.tar"
+            }
+        ]
+    },
+    "aliases": {
+    },
+    "type": "emulator",
+    "systems": [
+        "win"
+    ],
+    "os": [
+        "linux"
+    ]
+}
