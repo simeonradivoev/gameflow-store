@@ -16,12 +16,12 @@
             {
                 "type": "github",
                 "path": "Open-Wine-Components/umu-launcher",
-                "pattern": "umu-launcher-*-zipapp.tar"
+                "pattern": "umu-launcher-*-zipapp.tar",
+                "bin": "umu-run"
             }
         ]
     },
-    "aliases": {
-    },
+    "aliases": {},
     "type": "emulator",
     "systems": [
         "win"
