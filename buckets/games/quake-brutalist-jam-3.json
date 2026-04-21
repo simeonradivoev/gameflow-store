@@ -19,7 +19,7 @@
     "saves": {
         "win32:x64": {
             "saves": {
-                "cwd": "{{GAMEDIR}}",
+                "cwd": "{{{GAMEDIR}}}",
                 "globs": [
                     "qbj3/autosave/*.sav",
                     "qbj3/*.sav"
@@ -28,7 +28,7 @@
         },
 		"linux:x64": {
 			"saves": {
-                "cwd": "{{HOMEDIR}}/.ironwail",
+                "cwd": "{{{HOMEDIR}}}/.ironwail",
                 "globs": [
                     "qbj3/autosave/*.sav",
                     "qbj3/*.sav"

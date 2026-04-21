@@ -23,7 +23,7 @@
             "system": "win32:x64",
             "saves": {
                 "saves": {
-                    "cwd": "{{GAMEDIR}}",
+                    "cwd": "{{{GAMEDIR}}}",
                     "globs": [
                         "*.sav"
                     ]
