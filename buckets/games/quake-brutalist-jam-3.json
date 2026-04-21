@@ -25,7 +25,16 @@
                     "qbj3/*.sav"
                 ]
             }
-        }
+        },
+		"linux:x64": {
+			"saves": {
+                "cwd": "{{HOMEDIR}}/.ironwail",
+                "globs": [
+                    "qbj3/autosave/*.sav",
+                    "qbj3/*.sav"
+                ]
+            }
+		}
     },
     "downloads": {
         "win-eu": {
