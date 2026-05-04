@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.1.3](https://github.com/simeonradivoev/gameflow-store/compare/v0.1.2...v0.1.3) (2026-05-04)
+
+
+### Bug Fixes
+
+* Added ryujinx screenshots and a readme ([0b301ee](https://github.com/simeonradivoev/gameflow-store/commit/0b301eea320b0ac509d76248fab1be9326adec76))
+* Added save path to qbj3 on linux ([1fe0154](https://github.com/simeonradivoev/gameflow-store/commit/1fe0154c7eb49aa95a227b10e09f3f8d2e6ab8a5))
+* fixed mustache escaping ([8687550](https://github.com/simeonradivoev/gameflow-store/commit/868755033a566487abd5992df335fea01b882eb3))
+
 ## [0.1.2](https://github.com/simeonradivoev/gameflow-store/compare/v0.1.1...v0.1.2) (2026-04-20)
 
 
