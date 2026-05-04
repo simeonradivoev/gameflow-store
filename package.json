@@ -1,7 +1,11 @@
 {
     "name": "@simeonradivoev/gameflow-store",
     "version": "0.1.2",
-    "author": "Simeon Radivoev",
+    "author": {
+        "name": "Simeon Radivoev",
+        "email": "work@simeonradivoev.com",
+        "url": "https://simeonradivoev.com"
+    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/simeonradivoev/gameflow-store.git"
@@ -19,7 +23,8 @@
     ],
     "homepage": "https://github.com/simeonradivoev/gameflow-store#readme",
     "keywords": [
-        "store"
+        "store",
+        "gameflow"
     ],
     "license": "AGPL-3.0",
     "publishConfig": {
