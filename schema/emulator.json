@@ -29,6 +29,7 @@
       }
     },
     "bios": {
+      "description": "Is a bios needed for the emulator to run or is it optional",
       "type": "string",
       "enum": [
         "required",
@@ -52,6 +53,10 @@
     },
     "downloads": {
       "type": "object",
+      "description": "This is downloads based on the system and architecture the download will work on. They should be bun compatible platform and arch separated by `:`",
+      "examples": [
+        "win32:x64"
+      ],
       "patternProperties": {
         "^(?:(aix|darwin|freebsd|linux|openbsd|sunos|win32|android):(arm|arm64|ia32|mips|mipsel|ppc|ppc64|s390|s390x|x32|x64))*$": {
           "type": "array",
@@ -68,12 +73,19 @@
                     "format": "uri"
                   },
                   "bin": {
+                    "description": "The bin file for the emulator used to launch it",
                     "type": "string"
                   },
                   "pattern": {
+                    "description": "This is a glob supported pattern for the file to be downloaded from the github releases",
                     "type": "string"
                   },
                   "path": {
+                    "description": "This is the path version of the github address.",
+                    "examples": [
+                      "cemu-project/Cemu",
+                      "PCSX2/pcsx2"
+                    ],
                     "type": "string"
                   }
                 },
@@ -147,6 +159,12 @@
       ]
     },
     "systems": {
+      "description": "This is the system slugs the game is for. This should be romm or es-de compatible slugs.",
+      "examples": [
+        "ps2",
+        "wii",
+        "gba"
+      ],
       "type": "array",
       "items": {
         "type": "string"
@@ -154,6 +172,7 @@
     },
     "os": {
       "type": "array",
+      "description": "A list of systems the emulator works on. Should be bun compatible platforms",
       "items": {
         "type": "string"
       }

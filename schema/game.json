@@ -28,6 +28,7 @@
         },
         "saves": {
             "type": "object",
+            "description": "Glob based location of save files per platform and architecture.",
             "patternProperties": {
                 ".*": {
                     "type": "object",
@@ -36,9 +37,11 @@
                             "type": "object",
                             "properties": {
                                 "cwd": {
+                                    "description": "Root Directory of the sames. Supports environmental variables using mustache templating. Saves will keep sub directory layout based on this root.",
                                     "type": "string"
                                 },
                                 "globs": {
+                                    "description": "Glob pattern for the save files",
                                     "type": "array",
                                     "items": {
                                         "type": "string"
@@ -51,6 +54,7 @@
             }
         },
         "downloads": {
+            "description": "All download locations for the game.",
             "type": "object",
             "patternProperties": {
                 ".*": {
@@ -62,16 +66,24 @@
                                     "const": "direct"
                                 },
                                 "url": {
+                                    "description": "The download URL",
                                     "type": "string",
                                     "format": "uri"
                                 },
                                 "system": {
+                                    "description": "Platform and architecture the game download is for. Works with bun compatible platform and architecture with `:` as separator",
+                                    "examples": [
+                                        "win32:x64",
+                                        "linux:arm64"
+                                    ],
                                     "type": "string"
                                 },
                                 "name": {
+                                    "description": "Name for the download options as it will appear in the UI",
                                     "type": "string"
                                 },
                                 "main": {
+                                    "description": "Glob ofr the main executable file.",
                                     "type": "string"
                                 },
                                 "saves": {
@@ -139,12 +151,15 @@
             }
         },
         "system": {
+            "description": "Global system and architecture of the game. Uses bun compatible platform and arch separated by `:`",
             "type": "string"
         },
         "igdb_id": {
+            "description": "IGDB ID for the game. Will be used to fetch and update metadata",
             "type": "number"
         },
         "ra_id": {
+            "description": "Retro Achievements ID",
             "type": "number"
         },
         "sgdb_id": {
