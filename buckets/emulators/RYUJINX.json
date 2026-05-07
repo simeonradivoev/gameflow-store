@@ -5,18 +5,18 @@
     "logo": "https://raw.githubusercontent.com/Ryubing/Assets/refs/heads/main/RyujinxApp_1024.png",
     "license": {
         "identifier": "MIT",
-        "url": "https://git.ryujinx.app/ryubing/ryujinx/-/blob/master/LICENSE.txt"
+        "url": "https://git.ryujinx.app/projects/Ryubing/raw/branch/master/LICENSE.txt"
     },
     "repository": {
         "type": "git",
-        "url": "https://git.ryujinx.app/ryubing/ryujinx.git"
+        "url": "https://git.ryujinx.app/projects/Ryubing.git"
     },
     "downloads": {
         "win32:x64": [
             {
-                "type": "gitlab",
-                "path": "ryubing/ryujinx",
-                "pattern": "ryujinx-*-win_x64.zip"
+                "type": "direct",
+                "url": "https://git.ryujinx.app/projects/Ryubing/releases/download/1.3.3/ryujinx-1.3.3-win_x64.zip",
+                "bin": "Ryujinx.exe"
             },
             {
                 "type": "scoop",
@@ -25,16 +25,16 @@
         ],
         "linux:x64": [
             {
-                "type": "gitlab",
-                "path": "ryubing/ryujinx",
-                "pattern": "ryujinx-*-x64.AppImage"
+                "type": "direct",
+                "url": "https://git.ryujinx.app/projects/Ryubing/releases/download/1.3.3/ryujinx-1.3.3-x64.AppImage",
+                "bin": "ryujinx-*.AppImage"
             }
         ],
         "linux:arm64": [
             {
-                "type": "gitlab",
-                "path": "ryubing/ryujinx",
-                "pattern": "ryujinx-*-arm64.AppImage"
+                "type": "direct",
+                "url": "https://git.ryujinx.app/projects/Ryubing/releases/download/1.3.3/ryujinx-1.3.3-arm64.AppImage",
+                "bin": "ryujinx-*.AppImage"
             }
         ]
     },
