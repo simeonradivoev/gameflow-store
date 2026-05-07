@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.1.5](https://github.com/simeonradivoev/gameflow-store/compare/v0.1.4...v0.1.5) (2026-05-07)
+
+
+### Bug Fixes
+
+* Fixed ryujinx links ([080acd7](https://github.com/simeonradivoev/gameflow-store/commit/080acd7a9c121b96685f6ed2dd2b5d8e1535de30))
+
 ## [0.1.4](https://github.com/simeonradivoev/gameflow-store/compare/v0.1.3...v0.1.4) (2026-05-06)
 
 ## [0.1.3](https://github.com/simeonradivoev/gameflow-store/compare/v0.1.2...v0.1.3) (2026-05-04)
