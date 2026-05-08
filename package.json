@@ -14,7 +14,7 @@
     "bugs": {
         "url": "https://github.com/simeonradivoev/gameflow-store/issues"
     },
-    "description": "Gameflow Store",
+    "description": "Gameflow Store Repository. Manifests and buckets only.",
     "files": [
         "buckets/**/*",
         "manifests/*",
@@ -24,7 +24,8 @@
     "homepage": "https://github.com/simeonradivoev/gameflow-store#readme",
     "keywords": [
         "store",
-        "gameflow"
+        "gameflow",
+        "internal"
     ],
     "license": "AGPL-3.0",
     "publishConfig": {
