@@ -20,7 +20,7 @@
             },
             {
                 "type": "scoop",
-                "url": "https://cdn.jsdelivr.net/gh/Calinou/scoop-games@latest/bucket/xenia-edge.json"
+                "url": "https://cdn.jsdelivr.net/gh/Calinou/scoop-games@master/bucket/xenia-edge.json"
             }
         ],
         "linux:x64": [

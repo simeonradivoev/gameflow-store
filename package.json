@@ -38,6 +38,8 @@
         "prepublishOnly": "tsx scripts/build-manifests.ts"
     },
     "type": "module",
+    "canDisable": false,
+    "autoUpdate": true,
     "devDependencies": {
         "@types/node": "^25.6.0",
         "tsx": "^4.21.0"

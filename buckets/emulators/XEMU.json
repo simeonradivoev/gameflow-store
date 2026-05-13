@@ -20,7 +20,7 @@
             },
             {
                 "type": "scoop",
-                "url": "https://cdn.jsdelivr.net/gh/Calinou/scoop-games@latest/bucket/xemu.json"
+                "url": "https://cdn.jsdelivr.net/gh/Calinou/scoop-games@master/bucket/xemu.json"
             }
         ],
         "win32:arm64": [
@@ -31,7 +31,7 @@
             },
             {
                 "type": "scoop",
-                "url": "https://cdn.jsdelivr.net/gh/Calinou/scoop-games@latest/bucket/xemu.json"
+                "url": "https://cdn.jsdelivr.net/gh/Calinou/scoop-games@master/bucket/xemu.json"
             }
         ],
         "linux:x64": [

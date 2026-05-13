@@ -20,7 +20,7 @@
             },
             {
                 "type": "scoop",
-                "url": "https://cdn.jsdelivr.net/gh/Calinou/scoop-games@latest/bucket/azahar.json"
+                "url": "https://cdn.jsdelivr.net/gh/Calinou/scoop-games@master/bucket/azahar.json"
             }
         ],
         "linux:x64": [

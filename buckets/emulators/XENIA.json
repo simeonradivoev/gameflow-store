@@ -20,7 +20,7 @@
             },
             {
                 "type": "scoop",
-                "url": "https://cdn.jsdelivr.net/gh/Calinou/scoop-games@latest/bucket/xenia.json"
+                "url": "https://cdn.jsdelivr.net/gh/Calinou/scoop-games@master/bucket/xenia.json"
             }
         ]
     },
