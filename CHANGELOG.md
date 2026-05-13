@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.1.7](https://github.com/simeonradivoev/gameflow-store/compare/v0.1.6...v0.1.7) (2026-05-13)
+
+
+### Bug Fixes
+
+* Updated scoop links to master instead of latest ([2cf1849](https://github.com/simeonradivoev/gameflow-store/commit/2cf18492807f60d4c482470e735d2a5d7adbc9b9))
+
 ## [0.1.6](https://github.com/simeonradivoev/gameflow-store/compare/v0.1.5...v0.1.6) (2026-05-08)
 
 ## [0.1.5](https://github.com/simeonradivoev/gameflow-store/compare/v0.1.4...v0.1.5) (2026-05-07)
