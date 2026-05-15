@@ -66,7 +66,7 @@ await writeFile(
 await writeFile(
   "./manifests/games.json",
   JSON.stringify({
-    emulators: gamesManifest,
+    games: gamesManifest,
   }),
 );
 
