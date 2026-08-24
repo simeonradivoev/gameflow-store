@@ -1,0 +1,97 @@
+{
+    "name": "Ashes 2063",
+    "homepage": "https://www.moddb.com/mods/ashes-2063",
+    "version": "1.51",
+    "covers": [
+        "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3jib.jpg"
+    ],
+    "description": "Ashes 2063 is a post-apocalyptic total conversion for GZDoom that blends old-school shooter combat with exploration, scavenging, quests, and influences from Fallout and S.T.A.L.K.E.R. The standalone package includes Ashes 2063, Dead Man Walking, Afterglow, and Hard Reset together with GZDoom and Freedoom2.",
+    "downloads": {
+        "windows-standalone": {
+            "name": "Standalone 1.51",
+            "type": "moddb",
+            "file_id": 226759,
+            "file_name": "AshesStandalone_V1_51.zip",
+            "system": "win32:x64",
+            "main": "**/launch-ashes-2063.cmd",
+            "launch": {
+                "wrapper": "launch-ashes-2063.cmd",
+                "executable": "Resources/Ashes.exe",
+                "cwd": "Resources",
+                "args": [
+                    "-config",
+                    "gzdoom-ashes.ini",
+                    "-iwad",
+                    "freedoom-0.12.1/freedoom2.wad",
+                    "-file",
+                    "AshesSAMenu.pk3",
+                    "lightmodepatch.pk3",
+                    "Ashes2063Enriched2_23.pk3",
+                    "Ashes2063EnrichedFDPatch.pk3",
+                    "+use_joystick",
+                    "true",
+                    "+logfile",
+                    "log.txt"
+                ],
+                "bindings": {
+                    "Pad_A": "+use",
+                    "Pad_X": "+reload"
+                }
+            }
+        },
+        "linux-standalone": {
+            "name": "Standalone 1.51 with UZDoom",
+            "type": "moddb",
+            "file_id": 226759,
+            "file_name": "AshesStandalone_V1_51.zip",
+            "system": "linux:x64",
+            "main": "**/launch-ashes-2063.sh",
+            "additional_files": [
+                {
+                    "url": "https://github.com/UZDoom/UZDoom/releases/download/4.14.3/Linux-UZDoom-4.14.3.AppImage",
+                    "file_name": "uzdoom.AppImage"
+                }
+            ],
+            "launch": {
+                "wrapper": "launch-ashes-2063.sh",
+                "executable": "uzdoom.AppImage",
+                "cwd": "AshesStandalone_V1_51/Resources",
+                "args": [
+                    "-config",
+                    "gzdoom-ashes.ini",
+                    "-iwad",
+                    "freedoom-0.12.1/freedoom2.wad",
+                    "-file",
+                    "AshesSAMenu.pk3",
+                    "lightmodepatch.pk3",
+                    "Ashes2063Enriched2_23.pk3",
+                    "Ashes2063EnrichedFDPatch.pk3",
+                    "+use_joystick",
+                    "true",
+                    "+logfile",
+                    "log.txt"
+                ],
+                "bindings": {
+                    "Pad_A": "+use",
+                    "Pad_X": "+reload"
+                }
+            }
+        }
+    },
+    "companies": [
+        "Ashes Dev Group"
+    ],
+    "genres": [
+        "Shooter",
+        "Adventure"
+    ],
+    "keywords": [
+        "freeware",
+        "post-apocalyptic",
+        "total-conversion",
+        "gzdoom",
+        "doom-mod"
+    ],
+    "first_release_date": 1638489600000,
+    "player_count": "1"
+}

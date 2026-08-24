@@ -133,6 +133,93 @@
                                 "type",
                                 "path"
                             ]
+                        },
+                        {
+                            "type": "object",
+                            "properties": {
+                                "type": {
+                                    "const": "moddb"
+                                },
+                                "file_id": {
+                                    "description": "Stable numeric ModDB file ID resolved to a fresh mirror at install time.",
+                                    "type": "number"
+                                },
+                                "file_name": {
+                                    "description": "The upstream archive filename used for local storage and extraction.",
+                                    "type": "string"
+                                },
+                                "system": {
+                                    "description": "Platform and architecture the game download is for.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "Name for the download option as it will appear in the UI.",
+                                    "type": "string"
+                                },
+                                "main": {
+                                    "description": "Glob for the main executable or supported wrapper.",
+                                    "type": "string"
+                                },
+                                "additional_files": {
+                                    "description": "Extra non-archive runtime files downloaded into the game installation directory.",
+                                    "type": "array",
+                                    "items": {
+                                        "type": "object",
+                                        "properties": {
+                                            "url": {
+                                                "type": "string",
+                                                "format": "uri"
+                                            },
+                                            "file_name": {
+                                                "type": "string"
+                                            }
+                                        },
+                                        "required": [
+                                            "url",
+                                            "file_name"
+                                        ]
+                                    }
+                                },
+                                "launch": {
+                                    "description": "Specification for a generated platform launch wrapper.",
+                                    "type": "object",
+                                    "properties": {
+                                        "wrapper": {
+                                            "type": "string"
+                                        },
+                                        "executable": {
+                                            "type": "string"
+                                        },
+                                        "cwd": {
+                                            "type": "string"
+                                        },
+                                        "args": {
+                                            "type": "array",
+                                            "items": {
+                                                "type": "string"
+                                            }
+                                        },
+                                        "bindings": {
+                                            "description": "Controller bindings inserted into the game configuration when the button is not already bound.",
+                                            "type": "object",
+                                            "additionalProperties": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    },
+                                    "required": [
+                                        "wrapper",
+                                        "executable",
+                                        "args"
+                                    ]
+                                }
+                            },
+                            "required": [
+                                "type",
+                                "file_id",
+                                "file_name",
+                                "system"
+                            ]
                         }
                     ]
                 }
