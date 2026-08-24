@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.1.9](https://github.com/simeonradivoev/gameflow-store/compare/v0.1.8...v0.1.9) (2026-08-24)
+
+### Features
+
+* **games:** add standalone Ashes 2063 ([fe20774](https://github.com/simeonradivoev/gameflow-store/commit/fe207741a7c4a7cee5df92c56f00cbf3e719482c))
+
+### Bug Fixes
+
+* fixed game manifest json ([13dee6d](https://github.com/simeonradivoev/gameflow-store/commit/13dee6ddb101fee138fa79981a9fde04ea941cc4))
 ## [0.1.8](https://github.com/simeonradivoev/gameflow-store/compare/v0.1.7...v0.1.8) (2026-05-15)
 
 ## [0.1.7](https://github.com/simeonradivoev/gameflow-store/compare/v0.1.6...v0.1.7) (2026-05-13)
