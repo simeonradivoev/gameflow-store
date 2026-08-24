@@ -6,6 +6,8 @@ This package is Gameflow's manifest-only store. Game entries live as one JSON fi
 
 Changes here affect catalog/manifests only. Download, extraction, task-queue, websocket, and launch behavior is compiled into Gameflow Deck; testing those host changes requires restarting the Deck development backend or rebuilding and launching the Deck executable. Linking this package into Gameflow's managed store does not update host runtime code.
 
+Gameflow reads catalog buckets from the Store package installed in its managed data directory, not from the Deck build. A manifest change is not visible on another machine until this package is versioned and published (or supplied through `CUSTOM_STORE_PATH`) and that machine updates its installed package. The host must compare the installed Store version with the registry directly because `bun outdated` cannot detect updates when the managed project has no usable lockfile.
+
 ## Game manifest contract
 
 - Use a stable, lowercase, hyphenated filename. Its basename becomes the store game ID and the installed path suffix.
