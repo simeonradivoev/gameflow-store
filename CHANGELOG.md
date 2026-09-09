@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.1.11](https://github.com/simeonradivoev/gameflow-store/compare/v0.1.10...v0.1.11) (2026-09-09)
+
+### Bug Fixes
+
+* Added igdb ids ([282db5c](https://github.com/simeonradivoev/gameflow-store/commit/282db5ccd637cd715ddeaea3f28a22aea69544f6))
+* **games:** track Ashes save files ([37e0866](https://github.com/simeonradivoev/gameflow-store/commit/37e08664ed1f99fbaf748e71587735dfd9fb08b6))
 ## [0.1.10](https://github.com/simeonradivoev/gameflow-store/compare/v0.1.9...v0.1.10) (2026-09-09)
 
 ### Features
