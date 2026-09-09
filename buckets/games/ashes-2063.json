@@ -37,6 +37,14 @@
                     "Pad_A": "+use",
                     "Pad_X": "+reload"
                 }
+            },
+            "saves": {
+                "saves": {
+                    "cwd": "{{{HOMEDIR}}}/Saved Games/GZDoom",
+                    "globs": [
+                        "**/*.zds"
+                    ]
+                }
             }
         },
         "linux-standalone": {
@@ -74,6 +82,14 @@
                 "bindings": {
                     "Pad_A": "+use",
                     "Pad_X": "+reload"
+                }
+            },
+            "saves": {
+                "saves": {
+                    "cwd": "{{{HOMEDIR}}}/.local/share/games/uzdoom/savegames",
+                    "globs": [
+                        "**/*.zds"
+                    ]
                 }
             }
         }
