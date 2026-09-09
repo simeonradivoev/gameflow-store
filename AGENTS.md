@@ -39,3 +39,5 @@ Gameflow reads catalog buckets from the Store package installed in its managed d
 - Keep bucket changes focused and avoid unrelated generated churn. Preserve existing user edits.
 - Use Bun for project scripts. Use Conventional Commits if asked to commit.
 - Never add credentials, authenticated download URLs, cookies, or short-lived signed links to manifests.
+
+- The Dark Mod 2.14 uses the full ModDB archive `darkmod214.zip` (file `306419`) for both native x64 platforms, not the small online installers. Keep precise `TheDarkModx64.exe` / `thedarkmod.x64` wrapper targets and empty launch arguments: native GLFW controls load through `default.cfg` and user `DarkmodPadbinds.cfg`, so GZDoom bindings and joystick flags do not apply. Mission saves are under `fms/*/savegames/`. See README for source references and verification limitations.

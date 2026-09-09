@@ -1,0 +1,71 @@
+{
+    "name": "The Dark Mod",
+    "homepage": "https://www.thedarkmod.com/downloads/",
+    "version": "2.14",
+    "covers": [
+        "./media/covers/the-dark-mod.png"
+    ],
+    "screenshots": [
+        "https://www.thedarkmod.com/wp-content/uploads/2026/03/displace3-300x169.jpg"
+    ],
+    "description": "The Dark Mod is a free, standalone first-person stealth game inspired by Thief, set in a gothic steampunk world. Sneak through shadows, pick locks, and explore community-made missions available through the in-game mission downloader. Includes native gamepad controls; use a stick to move the menu cursor and A or the right trigger to select.",
+    "downloads": {
+        "windows-standalone": {
+            "name": "Standalone 2.14",
+            "type": "moddb",
+            "file_id": 306419,
+            "file_name": "darkmod214.zip",
+            "system": "win32:x64",
+            "main": "**/launch-the-dark-mod.cmd",
+            "launch": {
+                "wrapper": "launch-the-dark-mod.cmd",
+                "executable": "TheDarkModx64.exe",
+                "args": []
+            },
+            "saves": {
+                "missions": {
+                    "cwd": "{{{GAMEDIR}}}",
+                    "globs": [
+                        "fms/*/savegames/**/*"
+                    ]
+                }
+            }
+        },
+        "linux-standalone": {
+            "name": "Standalone 2.14",
+            "type": "moddb",
+            "file_id": 306419,
+            "file_name": "darkmod214.zip",
+            "system": "linux:x64",
+            "main": "**/launch-the-dark-mod.sh",
+            "launch": {
+                "wrapper": "launch-the-dark-mod.sh",
+                "executable": "thedarkmod.x64",
+                "args": []
+            },
+            "saves": {
+                "missions": {
+                    "cwd": "{{{GAMEDIR}}}",
+                    "globs": [
+                        "fms/*/savegames/**/*"
+                    ]
+                }
+            }
+        }
+    },
+    "companies": [
+        "Team Dark Mod"
+    ],
+    "genres": [
+        "Adventure"
+    ],
+    "keywords": [
+        "freeware",
+        "stealth",
+        "first-person",
+        "gothic",
+        "steampunk",
+        "single-player"
+    ],
+    "player_count": "1"
+}
