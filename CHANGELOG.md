@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.1.10](https://github.com/simeonradivoev/gameflow-store/compare/v0.1.9...v0.1.10) (2026-09-09)
+
+### Features
+
+* **store:** add The Dark Mod for Windows and Linux ([b31ca1e](https://github.com/simeonradivoev/gameflow-store/commit/b31ca1eca5453386d5754d6e6c379d10c473842c))
+
+### Bug Fixes
+
+* **store:** use portrait artwork for The Dark Mod ([e299203](https://github.com/simeonradivoev/gameflow-store/commit/e299203bf98a0622b2b80d50b33f44ca73bd5996))
 ## [0.1.9](https://github.com/simeonradivoev/gameflow-store/compare/v0.1.8...v0.1.9) (2026-08-24)
 
 ### Features
