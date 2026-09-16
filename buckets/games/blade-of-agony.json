@@ -1,0 +1,108 @@
+{
+    "name": "Wolfenstein: Blade of Agony",
+    "homepage": "https://www.moddb.com/mods/wolfendoom-blade-of-agony",
+    "version": "3.1",
+    "covers": [
+        "./media/covers/blade-of-agony-cover.jpg",
+        "https://media.moddb.com/images/downloads/1/214/213227/release.2.jpg"
+    ],
+    "screenshots": [
+        "https://media.moddb.com/images/mods/1/31/30753/Screenshot_Doom_20200712_133458.jpg",
+        "https://media.moddb.com/images/mods/1/31/30753/Screenshot_Doom_20200712_133301.jpg"
+    ],
+    "description": "Blade of Agony is a story-driven single-player FPS inspired by Wolfenstein 3D, Medal of Honor, and early Call of Duty, built on GZDoom. The standalone v3.1 Achievement Edition packs 30 unique levels across 3 chapters plus secret maps, orchestral music, voice acting, 10 languages, 34 achievements, and 12 addons and mutators. No Doom IWAD required.",
+    "downloads": {
+        "windows-standalone": {
+            "name": "Standalone 3.1",
+            "type": "moddb",
+            "file_id": 213227,
+            "file_name": "boa_c31.4.zip",
+            "system": "win32:x64",
+            "main": "**/launch-blade-of-agony.cmd",
+            "launch": {
+                "wrapper": "launch-blade-of-agony.cmd",
+                "executable": "boa.exe",
+                "cwd": ".",
+                "args": [
+                    "-config",
+                    "boa-store.ini",
+                    "-iwad",
+                    "boa.ipk3",
+                    "+use_joystick",
+                    "true",
+                    "+logfile",
+                    "log.txt"
+                ],
+                "bindings": {
+                    "Pad_A": "+use",
+                    "Pad_X": "+reload"
+                }
+            },
+            "saves": {
+                "saves": {
+                    "cwd": "{{{HOMEDIR}}}/Saved Games/GZDoom",
+                    "globs": [
+                        "**/*.zds"
+                    ]
+                }
+            }
+        },
+        "linux-standalone": {
+            "name": "Standalone 3.1 with UZDoom",
+            "type": "moddb",
+            "file_id": 213227,
+            "file_name": "boa_c31.4.zip",
+            "system": "linux:x64",
+            "main": "**/launch-blade-of-agony.sh",
+            "additional_files": [
+                {
+                    "url": "https://github.com/UZDoom/UZDoom/releases/download/4.14.3/Linux-UZDoom-4.14.3.AppImage",
+                    "file_name": "uzdoom.AppImage"
+                }
+            ],
+            "launch": {
+                "wrapper": "launch-blade-of-agony.sh",
+                "executable": "uzdoom.AppImage",
+                "cwd": ".",
+                "args": [
+                    "-config",
+                    "boa-store.ini",
+                    "-iwad",
+                    "boa.ipk3",
+                    "+use_joystick",
+                    "true",
+                    "+logfile",
+                    "log.txt"
+                ],
+                "bindings": {
+                    "Pad_A": "+use",
+                    "Pad_X": "+reload"
+                }
+            },
+            "saves": {
+                "saves": {
+                    "cwd": "{{{HOMEDIR}}}/.local/share/games/uzdoom/savegames",
+                    "globs": [
+                        "**/*.zds"
+                    ]
+                }
+            }
+        }
+    },
+    "companies": [
+        "Blade of Agony"
+    ],
+    "genres": [
+        "Shooter",
+        "Adventure"
+    ],
+    "keywords": [
+        "freeware",
+        "wwii",
+        "total-conversion",
+        "gzdoom",
+        "doom-mod",
+        "wolfenstein"
+    ],
+    "player_count": "1"
+}

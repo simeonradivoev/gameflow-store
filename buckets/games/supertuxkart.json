@@ -1,0 +1,67 @@
+{
+    "name": "SuperTuxKart",
+    "homepage": "https://supertuxkart.net/Main_Page.html",
+    "version": "1.5",
+    "covers": [
+        "./media/covers/supertuxkart-cover.jpg",
+        "https://supertuxkart.net/assets/gallery/STK1.3_1.jpg"
+    ],
+    "screenshots": [
+        "https://supertuxkart.net/assets/gallery/STK1.3_2.jpg",
+        "https://supertuxkart.net/assets/gallery/STK1.3_3.jpg"
+    ],
+    "description": "SuperTuxKart is a 3D open-source arcade racer with a variety of characters, tracks, and modes to play. Version 1.5 features 21 official tracks and 18 official karts across three kart classes, plus Story Mode, Time-Trial, Egg Hunt, Soccer, and Battle modes with local split-screen, LAN, and online multiplayer.",
+    "downloads": {
+        "windows-standalone": {
+            "name": "Standalone 1.5",
+            "type": "direct",
+            "url": "https://github.com/supertuxkart/stk-code/releases/download/1.5/SuperTuxKart-1.5-win.zip",
+            "system": "win32:x64",
+            "main": "**/run_game.bat"
+        },
+        "linux-standalone": {
+            "name": "Standalone 1.5",
+            "type": "direct",
+            "url": "https://github.com/supertuxkart/stk-code/releases/download/1.5/SuperTuxKart-1.5-linux-x86_64.tar.gz",
+            "system": "linux:x64",
+            "main": "**/run_game.sh"
+        }
+    },
+    "saves": {
+        "win32:x64": {
+            "saves": {
+                "cwd": "{{{APPDATA}}}/supertuxkart",
+                "globs": [
+                    "config-0.10/**/*"
+                ]
+            }
+        },
+        "linux:x64": {
+            "saves": {
+                "cwd": "{{{HOMEDIR}}}/.config/supertuxkart",
+                "globs": [
+                    "config-0.10/**/*"
+                ]
+            },
+            "saves-legacy": {
+                "cwd": "{{{HOMEDIR}}}/.supertuxkart",
+                "globs": [
+                    "config-0.10/**/*"
+                ]
+            }
+        }
+    },
+    "companies": [
+        "SuperTuxKart Team"
+    ],
+    "genres": [
+        "Racing"
+    ],
+    "keywords": [
+        "open-source",
+        "kart",
+        "racing",
+        "single-player",
+        "multiplayer"
+    ]
+}
